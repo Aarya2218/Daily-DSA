@@ -1,4 +1,4 @@
-﻿// Smallest Element in an Array
+// Smallest Element in an Array
 //Given an integer array, find the smallest element.
 //{2, 8, 5, 9, 1}
 //Rules
