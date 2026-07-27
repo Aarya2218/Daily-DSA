@@ -1,4 +1,17 @@
-﻿int[] a = new int[] { 2, 8, 5, 9, 1 };
+// Second Largest Element
+//Given an integer array, find the Second Largest Element.
+//{2, 8, 5, 9, 1}
+//Rules
+//Don't use:
+//LINQ
+// sorting
+
+//Use only:
+//array
+//for loop
+//if
+
+int[] a = new int[] { 2, 8, 5, 9, 1 };
 
 int largest = int.MinValue;
 int secondLargest = int.MinValue;
