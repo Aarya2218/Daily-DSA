@@ -1,4 +1,4 @@
-﻿// Sum of Array
+// Sum of Array
 //Given an array of integers, find the sum of all its elements.
 //{2, 8, 5, 9, 1}
 //Rules
