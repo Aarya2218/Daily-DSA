@@ -1,21 +1,18 @@
 // find the largest number in the array
-public class LargestElement
+int[] a = new int[] { 2, 8, 5, 9, 1 };
+
+int largest = a[0];
+
+for (int i = 1; i < a.Length; i++)
 {
-    public static int FindLargest(int[] a)
+    if (a[i] > largest)
     {
-        int largest = a[0];
-
-        for(int i = 1; i < a.Length; i++)
-        {
-            if(a[i] > largest)
-            {
-                largest = a[i];
-            }
-        }
-
-        return largest;
+        largest = a[i];
     }
 }
+
+ Console.WriteLine($"Largest Number = {largest}");
+
 
 // the way i'm thinking about it is, sorting, means, arrange the array in a asscending order 
 // now how to arrange this array in asc order, or any order
