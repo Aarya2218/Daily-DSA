@@ -1,4 +1,4 @@
-﻿// Linear Search
+// Linear Search
 // Given {2, 8, 5, 9, 1}
 // search for 9 -> Found at index 3
 // search for 7 - not found
@@ -22,3 +22,7 @@ if(!found)
 }
 
 
+// Linear search
+//searching instead of calculating
+// a flag variable(bool found) to remember if something happened.
+//break; to stop the loop once the answer is found.
