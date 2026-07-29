@@ -1,4 +1,4 @@
-﻿// Reverse an array {two pointers}
+// Reverse an array {two pointers}
 // Given {2, 8, 5, 9, 1}
 // o/p {1,9,5,8,2 }
 
